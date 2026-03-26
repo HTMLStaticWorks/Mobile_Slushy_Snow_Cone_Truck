@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slushy Splash - Gallery</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .gallery-grid {
+            columns: 3 300px;
+            column-gap: 20px;
+            margin-top: 40px;
+        }
+        .gallery-item {
+            display: inline-block;
+            width: 100%;
+            margin-bottom: 20px;
+            border-radius: var(--border-radius);
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+        }
+        .gallery-item:hover {
+            transform: scale(1.02);
+        }
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <!-- Brand Left -->
+            <a href="index.html" class="logo">
+                <svg width="40" height="40" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" style="vertical-align: middle; margin-right: 10px;">
+                    <path d="M30 35 L70 35 L62 90 L38 90 Z" fill="var(--primary)" />
+                    <path d="M48 35 L52 10" stroke="#333" stroke-width="4" stroke-linecap="round" />
+                </svg>
+                Slushy <span>Splash</span>
+            </a>
+            
+            <div class="hamburger">☰</div>
+            
+            <!-- Menu Center -->
+            <div class="nav-menu-container">
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="home2.html" class="nav-link">Home 2</a></li>
+                    <li><a href="flavors.html" class="nav-link">Flavors</a></li>
+                    <li><a href="packages.html" class="nav-link">Packages</a></li>
+                    <li><a href="gallery.html" class="nav-link active">Gallery</a></li>
+                    <li><a href="blog.html" class="nav-link">Blog</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                    
+                    <!-- Mobile actions -->
+                    <li class="nav-mobile-only" style="width: 100%; border-top: 1px solid rgba(0,0,0,0.1); padding-top: 20px; display: flex; justify-content: center; gap: 15px;">
+                        <button class="nav-btn rtl-toggle">🔄 RTL</button>
+                        <button class="nav-btn theme-toggle">🌙 Theme</button>
+                    </li>
+                    <li class="nav-mobile-only" style="width: 100%;">
+                        <a href="login.html" class="nav-btn btn-login-nav" style="display: block; text-align: center;">Login</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Actions Right (Desktop) -->
+            <div class="nav-actions nav-desktop-only">
+                <button class="nav-btn rtl-toggle" title="Toggle RTL">🔄</button>
+                <button class="nav-btn theme-toggle" title="Toggle Theme">🌙</button>
+                <a href="login.html" class="nav-btn btn-login-nav">Login</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <img src="https://images.unsplash.com/photo-1533294485618-f58a7273f8ff?w=1600" class="hero-anim-bg" alt="Gallery Hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <h1 class="fade-in">Party <span>Gallery</span></h1>
+            <p class="fade-in delay-1">Take a look at all the cool memories we've helped create. Every splash is a story of joy and refreshment!</p>
+        </div>
+    </section>
+
+    <section class="section container">
+        <h2 class="text-center">Making Every Moment Special</h2>
+        
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1533294160022-41f3291560ed?q=80&w=600" alt="Birthday Party">
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1549417229-aa67d3263c09?q=80&w=600" alt="Corporate Event">
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1517457373958-b7bdd4587205?q=80&w=600" alt="Wedding Bash">
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1527529482837-4698179dc6ce?q=80&w=600" alt="Outdoor Festival">
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1533294485618-f58a7273f8ff?q=80&w=600" alt="Kids Party">
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1470225620780-dba8ba36b745?q=80&w=600" alt="Beach Bash">
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <a href="index.html" class="logo" style="color: white; margin-bottom: 20px;">
+                    <svg width="30" height="30" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" style="vertical-align: middle; margin-right: 10px;">
+                        <path d="M30 35 L70 35 L62 90 L38 90 Z" fill="var(--primary)" />
+                        <path d="M30 35 Q50 15 70 35" fill="white" opacity="0.5" />
+                    </svg>
+                    Slushy <span>Splash</span>
+                </a>
+                <p>Making parties cooler since 2024. Your premier mobile slushy destination for any event.</p>
+                <div class="social-links">
+                    <a href="#">FB</a>
+                    <a href="#">IG</a>
+                    <a href="#">TK</a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul class="footer-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="flavors.html">Flavors</a></li>
+                    <li><a href="packages.html">Packages</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Popular Flavors</h4>
+                <ul class="footer-links">
+                    <li>Electric Strawberry</li>
+                    <li>Zesty Lemon-Lime</li>
+                    <li>Blue Raspberry</li>
+                    <li>Tropical Mango</li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact Us</h4>
+                <p>📞 (555) SLUSHY-1</p>
+                <p>📧 hello@slushysplash.com</p>
+                <p>📍 Serving Miami & Broward</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Slushy Splash. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <div id="backToTop" class="back-to-top" aria-label="Back to top">↑</div>
+    <script src="js/main.js"></script>
+</body>
+</html>

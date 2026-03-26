@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slushy Splash - Flavors</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <!-- Brand Left -->
+            <a href="index.html" class="logo">
+                <svg width="40" height="40" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" style="vertical-align: middle; margin-right: 10px;">
+                    <path d="M30 35 L70 35 L62 90 L38 90 Z" fill="var(--primary)" />
+                    <path d="M30 35 Q50 15 70 35" fill="var(--secondary)" opacity="0.8" />
+                    <path d="M48 35 L52 10" stroke="#333" stroke-width="4" stroke-linecap="round" />
+                </svg>
+                Slushy <span>Splash</span>
+            </a>
+            
+            <div class="hamburger">☰</div>
+            
+            <!-- Menu Center -->
+            <div class="nav-menu-container">
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="home2.html" class="nav-link">Home 2</a></li>
+                    <li><a href="flavors.html" class="nav-link active">Flavors</a></li>
+                    <li><a href="packages.html" class="nav-link">Packages</a></li>
+                    <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+                    <li><a href="blog.html" class="nav-link">Blog</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                    
+                    <!-- Mobile actions -->
+                    <li class="nav-mobile-only" style="width: 100%; border-top: 1px solid rgba(0,0,0,0.1); padding-top: 20px; display: flex; justify-content: center; gap: 15px;">
+                        <button class="nav-btn rtl-toggle">🔄 RTL</button>
+                        <button class="nav-btn theme-toggle">🌙 Theme</button>
+                    </li>
+                    <li class="nav-mobile-only" style="width: 100%;">
+                        <a href="login.html" class="nav-btn btn-login-nav" style="display: block; text-align: center;">Login</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Actions Right (Desktop) -->
+            <div class="nav-actions nav-desktop-only">
+                <button class="nav-btn rtl-toggle" title="Toggle RTL">🔄</button>
+                <button class="nav-btn theme-toggle" title="Toggle Theme">🌙</button>
+                <a href="login.html" class="nav-btn btn-login-nav">Login</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <img src="https://images.unsplash.com/photo-1547595628-c61a29f496f0?w=1600" class="hero-anim-bg" alt="Flavors Hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <h1 class="fade-in">Flavor <span>Menu</span></h1>
+            <p class="fade-in delay-1">Explore our vibrant rainbow of slushy flavors! From classic fruity favorites to sour shocks and specialty blends.</p>
+        </div>
+    </section>
+
+    <section class="section container">
+        <h2 class="text-center">Our Signature Showcase</h2>
+        <div class="grid grid-3">
+            <!-- Fruity -->
+            <div class="card" style="border-top: 5px solid #ff4d4d; padding: 0; overflow: hidden;">
+                <img src="https://images.unsplash.com/photo-1547595628-c61a29f496f0?w=600" alt="Strawberry" style="width: 100%; height: 200px; object-fit: cover;">
+                <div style="padding: 20px;">
+                    <div class="card-icon" style="background: #ff4d4d; color: white; margin: -50px auto 15px;">🍓</div>
+                    <h3>Electric Strawberry</h3>
+                    <p>A punch of fresh strawberries with a tropical twist.</p>
+                </div>
+            </div>
+            <div class="card" style="border-top: 5px solid #ffcc00; padding: 0; overflow: hidden;">
+                <img src="https://images.unsplash.com/photo-1513519245088-0e12902e5a38?w=600" alt="Mango" style="width: 100%; height: 200px; object-fit: cover;">
+                <div style="padding: 20px;">
+                    <div class="card-icon" style="background: #ffcc00; color: white; margin: -50px auto 15px;">🥭</div>
+                    <h3>Tropical Mango</h3>
+                    <p>Sweet and smooth mango for the ultimate island vibe.</p>
+                </div>
+            </div>
+            <div class="card" style="border-top: 5px solid #ff751a; padding: 0; overflow: hidden;">
+                <img src="https://images.unsplash.com/photo-1595981267035-23c3182b834e?w=600" alt="Peach" style="width: 100%; height: 200px; object-fit: cover;">
+                <div style="padding: 20px;">
+                    <div class="card-icon" style="background: #ff751a; color: white; margin: -50px auto 15px;">🍑</div>
+                    <h3>Peachy Keen</h3>
+                    <p>Soft and sweet peach for a refreshing summer treats.</p>
+                </div>
+            </div>
+            <!-- Sour -->
+            <div class="card" style="border-top: 5px solid #ccff33; padding: 0; overflow: hidden;">
+                <img src="https://images.unsplash.com/photo-1513519245088-0e12902e5a38?w=600" alt="Lemon" style="width: 100%; height: 200px; object-fit: cover;">
+                <div style="padding: 20px;">
+                    <div class="card-icon" style="background: #ccff33; color: #1a1a1a; margin: -50px auto 15px;">🍋</div>
+                    <h3>Zesty Lemon-Lime</h3>
+                    <p>Tangy lemon and lime for a citrusy splash of energy.</p>
+                </div>
+            </div>
+            <div class="card" style="border-top: 5px solid #33cc33; padding: 0; overflow: hidden;">
+                <img src="https://images.unsplash.com/photo-1570913149827-d2ac84ab3f9a?w=600" alt="Apple" style="width: 100%; height: 200px; object-fit: cover;">
+                <div style="padding: 20px;">
+                    <div class="card-icon" style="background: #33cc33; color: white; margin: -50px auto 15px;">🍏</div>
+                    <h3>Sour Green Apple</h3>
+                    <p>Bitingly sour and crisp, perfect for the bold.</p>
+                </div>
+            </div>
+            <!-- Specialty -->
+            <div class="card" style="border-top: 5px solid #3399ff; padding: 0; overflow: hidden;">
+                <img src="https://images.unsplash.com/photo-1549417229-aa67d3263c09?w=600" alt="Blue" style="width: 100%; height: 200px; object-fit: cover;">
+                <div style="padding: 20px;">
+                    <div class="card-icon" style="background: #3399ff; color: white; margin: -50px auto 15px;">🫐</div>
+                    <h3>Blue Raspberry</h3>
+                    <p>The iconic blue splash that everyone loves.</p>
+                </div>
+            </div>
+            <!-- Added Flavors (6 more) -->
+            <div class="card" style="border-top: 5px solid #ff0000; padding: 0; overflow: hidden;">
+                <img src="https://images.unsplash.com/photo-1527661591475-527312dd65f5?w=600" alt="Cherry" style="width: 100%; height: 200px; object-fit: cover;">
+                <div style="padding: 20px;">
+                    <div class="card-icon" style="background: #ff0000; color: white; margin: -50px auto 15px;">🍒</div>
+                    <h3>Wild Cherry</h3>
+                    <p>A classic, deep red cherry blast with intense sweetness.</p>
+                </div>
+            </div>
+            <div class="card" style="border-top: 5px solid #000080; padding: 0; overflow: hidden;">
+                <img src="https://images.unsplash.com/photo-1510626176961-4b57d4fbad03?w=600" alt="Blueberry" style="width: 100%; height: 200px; object-fit: cover;">
+                <div style="padding: 20px;">
+                    <div class="card-icon" style="background: #000080; color: white; margin: -50px auto 15px;">🍇</div>
+                    <h3>Bora Bora Blueberry</h3>
+                    <p>Deep blue berry fusion that takes you to the islands.</p>
+                </div>
+            </div>
+            <div class="card" style="border-top: 5px solid #ff8c00; padding: 0; overflow: hidden;">
+                <img src="https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=600" alt="Orange" style="width: 100%; height: 200px; object-fit: cover;">
+                <div style="padding: 20px;">
+                    <div class="card-icon" style="background: #ff8c00; color: white; margin: -50px auto 15px;">🍊</div>
+                    <h3>Orange Creamsicle</h3>
+                    <p>Creamy orange bliss that tastes like nostalgia in a cup.</p>
+                </div>
+            </div>
+            <div class="card" style="border-top: 5px solid #ffff00; padding: 0; overflow: hidden;">
+                <img src="https://images.unsplash.com/photo-1443547701772-840f8bd3461d?w=600" alt="Lemonade" style="width: 100%; height: 200px; object-fit: cover;">
+                <div style="padding: 20px;">
+                    <div class="card-icon" style="background: #ffff00; color: #1a1a1a; margin: -50px auto 15px;">🍋</div>
+                    <h3>Lemony Lemonade</h3>
+                    <p>Pure, classic lemonade refreshment for the purists.</p>
+                </div>
+            </div>
+            <div class="card" style="border-top: 5px solid #32cd32; padding: 0; overflow: hidden;">
+                <img src="https://images.unsplash.com/photo-1511210137730-8c909e1e2373?w=600" alt="Lime" style="width: 100%; height: 200px; object-fit: cover;">
+                <div style="padding: 20px;">
+                    <div class="card-icon" style="background: #32cd32; color: white; margin: -50px auto 15px;">🍏</div>
+                    <h3>Lime Light</h3>
+                    <p>Zesty and energetic lime that glows with flavor.</p>
+                </div>
+            </div>
+            <div class="card" style="border-top: 5px solid #ffffff; padding: 0; overflow: hidden;">
+                <img src="https://images.unsplash.com/photo-1543834469-5100084045f0?w=600" alt="Coconut" style="width: 100%; height: 200px; object-fit: cover;">
+                <div style="padding: 20px;">
+                    <div class="card-icon" style="background: #eee; color: #1a1a1a; margin: -50px auto 15px;">🥥</div>
+                    <h3>Cool Coconut</h3>
+                    <p>Smooth, tropical coconut for a chilled island escape.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Custom Flavor Section -->
+    <section class="section" style="background: var(--bg-light); text-align: center;">
+        <div class="container">
+            <h2>Seasonal & Custom Requests</h2>
+            <p>Don't see your favorite flavor? We take custom requests for large events!</p>
+            <a href="contact.html" class="btn btn-primary" style="margin-top: 20px;">Request a Custom Flavor</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <a href="index.html" class="logo" style="color: white; margin-bottom: 20px;">
+                    <svg width="30" height="30" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" style="vertical-align: middle; margin-right: 10px;">
+                        <path d="M30 35 L70 35 L62 90 L38 90 Z" fill="var(--primary)" />
+                        <path d="M30 35 Q50 15 70 35" fill="white" opacity="0.5" />
+                    </svg>
+                    Slushy <span>Splash</span>
+                </a>
+                <p>Making parties cooler since 2024. Your premier mobile slushy destination for any event.</p>
+                <div class="social-links">
+                    <a href="#">FB</a>
+                    <a href="#">IG</a>
+                    <a href="#">TK</a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul class="footer-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="flavors.html">Flavors</a></li>
+                    <li><a href="packages.html">Packages</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Popular Flavors</h4>
+                <ul class="footer-links">
+                    <li>Electric Strawberry</li>
+                    <li>Zesty Lemon-Lime</li>
+                    <li>Blue Raspberry</li>
+                    <li>Tropical Mango</li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact Us</h4>
+                <p>📞 (555) SLUSHY-1</p>
+                <p>📧 hello@slushysplash.com</p>
+                <p>📍 Serving Miami & Broward</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Slushy Splash. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <div id="backToTop" class="back-to-top" aria-label="Back to top">↑</div>
+    <script src="js/main.js"></script>
+</body>
+</html>

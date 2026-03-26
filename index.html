@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slushy Splash - Home</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <!-- Brand Left -->
+            <a href="index.html" class="logo">
+                <svg width="40" height="40" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" style="vertical-align: middle; margin-right: 10px;">
+                    <path d="M30 35 L70 35 L62 90 L38 90 Z" fill="var(--primary)" />
+                    <path d="M30 35 Q50 15 70 35" fill="var(--secondary)" opacity="0.8" />
+                    <path d="M48 35 L52 10" stroke="#333" stroke-width="4" stroke-linecap="round" />
+                    <circle cx="50" cy="45" r="5" fill="white" opacity="0.5" />
+                </svg>
+                Slushy <span>Splash</span>
+            </a>
+            
+            <div class="hamburger">☰</div>
+            
+            <!-- Menu Center -->
+            <div class="nav-menu-container">
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link active">Home</a></li>
+                    <li><a href="home2.html" class="nav-link">Home 2</a></li>
+                    <li><a href="flavors.html" class="nav-link">Flavors</a></li>
+                    <li><a href="packages.html" class="nav-link">Packages</a></li>
+                    <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+                    <li><a href="blog.html" class="nav-link">Blog</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                    
+                    <!-- Mobile actions (shown inside hamburger drawer) -->
+                    <li class="nav-mobile-only" style="width: 100%; border-top: 1px solid rgba(0,0,0,0.1); padding-top: 20px; display: flex; justify-content: center; gap: 15px;">
+                        <button class="nav-btn rtl-toggle">🔄 RTL</button>
+                        <button class="nav-btn theme-toggle">🌙 Theme</button>
+                    </li>
+                    <li class="nav-mobile-only" style="width: 100%;">
+                        <a href="login.html" class="nav-btn btn-login-nav" style="display: block; text-align: center;">Login</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Actions Right (Desktop) -->
+            <div class="nav-actions nav-desktop-only">
+                <button class="nav-btn rtl-toggle" title="Toggle RTL">🔄</button>
+                <button class="nav-btn theme-toggle" title="Toggle Theme">🌙</button>
+                <a href="login.html" class="nav-btn btn-login-nav">Login</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <img src="https://images.unsplash.com/photo-1470337458703-46ad1756a187?q=80&w=2000" class="hero-anim-bg" alt="Hero BG">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <h1 class="fade-in">Cool Down Your Party with <span>Slushy Splash!</span></h1>
+            <p class="fade-in delay-1">The most colorful mobile slushy truck bringing the fun and refreshing vibes to your special event.</p>
+            <div class="hero-btns fade-in delay-2">
+                <a href="contact.html" class="btn btn-primary">Book Your Event</a>
+                <a href="flavors.html" class="btn btn-secondary">See Flavors</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="section container">
+        <h2>How It Works</h2>
+        <div class="grid grid-4 center-last-tablet">
+            <div class="card fade-in">
+                <img src="https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=600" class="card-img" alt="Step 1">
+                <div class="card-icon">📅</div>
+                <h3>1. Book Your Date</h3>
+                <p>Choose your event date and select your preferred package online.</p>
+            </div>
+            <div class="card fade-in delay-1">
+                <img src="https://images.unsplash.com/photo-1549417229-aa67d3263c09?w=600" class="card-img" alt="Step 2">
+                <div class="card-icon">🍓</div>
+                <h3>2. Choose Flavors</h3>
+                <p>Pick from our wide range of fruity and specialty slushy flavors.</p>
+            </div>
+            <div class="card fade-in delay-2">
+                <img src="https://images.unsplash.com/photo-1510626176961-4b57d4fbad03?w=600" class="card-img" alt="Step 3">
+                <div class="card-icon">🚚</div>
+                <h3>3. We Arrive</h3>
+                <p>Our vibrant truck rolls up to your location with everything ready.</p>
+            </div>
+            <div class="card fade-in delay-3">
+                <img src="https://images.unsplash.com/photo-1533294485618-f58a7273f8ff?w=600" class="card-img" alt="Step 4">
+                <div class="card-icon">🎉</div>
+                <h3>4. Splash Party!</h3>
+                <p>Enjoy refreshing slushies and a fun atmosphere at your event.</p>
+            </div>
+            <div class="card fade-in">
+                <img src="https://images.unsplash.com/photo-1530103043960-ef38714abb15?w=600" class="card-img" alt="Step 5">
+                <div class="card-icon">📸</div>
+                <h3>5. Capture Moments</h3>
+                <p>Pose with our truck for vibrant, Instagram-worthy party photos.</p>
+            </div>
+            <div class="card fade-in delay-1">
+                <img src="https://images.unsplash.com/photo-1517457373958-b7bdd4587205?w=600" class="card-img" alt="Step 6">
+                <div class="card-icon">🧹</div>
+                <h3>6. Zero Mess</h3>
+                <p>We handle all cup disposal and clean up the service area.</p>
+            </div>
+            <div class="card fade-in delay-2">
+                <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=600" class="card-img" alt="Step 7">
+                <div class="card-icon">🌟</div>
+                <h3>7. Share the Joy</h3>
+                <p>Your guests leave with a smile and a refreshing cool treat memory.</p>
+            </div>
+            <div class="card fade-in delay-3">
+                <img src="https://images.unsplash.com/photo-1543834469-5100084045f0?w=600" class="card-img" alt="Step 8">
+                <div class="card-icon">🥤</div>
+                <h3>8. Infinite Refills</h3>
+                <p>Our packages include unlimited pours for the duration of the event.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Flavors -->
+    <section class="section" style="background: var(--bg-dark); color: white;">
+        <div class="container">
+            <h2>Our Top Hits</h2>
+            <div class="grid grid-3">
+                <div class="card" style="background: rgba(255,255,255,0.05);">
+                    <img src="https://images.unsplash.com/photo-1547595628-c61a29f496f0?w=600" class="card-img" alt="Strawberry">
+                    <div class="card-icon" style="background: var(--primary); border: none;">🍓</div>
+                    <h3>Electric Strawberry</h3>
+                    <p>Classic strawberry with a tropical shock. The party favorite!</p>
+                </div>
+                <div class="card" style="background: rgba(255,255,255,0.05);">
+                    <img src="https://images.unsplash.com/photo-1513519245088-0e12902e5a38?w=600" class="card-img" alt="Lemon">
+                    <div class="card-icon" style="background: var(--secondary); border: none;">🍋</div>
+                    <h3>Zesty Lemon-Lime</h3>
+                    <p>Double the zing for maximum refreshment on a hot day.</p>
+                </div>
+                <div class="card" style="background: rgba(255,255,255,0.05);">
+                    <img src="https://images.unsplash.com/photo-1549417229-aa67d3263c09?w=600" class="card-img" alt="Blueberry">
+                    <div class="card-icon" style="background: var(--accent); border: none;">🫐</div>
+                    <h3>Blue Raspberry</h3>
+                    <p>Vibrant blue slushy that will turn your tongue (and party) bright!</p>
+                </div>
+                <div class="card" style="background: rgba(255,255,255,0.05);">
+                    <img src="https://images.unsplash.com/photo-1601050638917-3606f8fe0718?w=600" class="card-img" alt="Mango">
+                    <div class="card-icon" style="background: #ff751a; border: none;">🥭</div>
+                    <h3>Mango Madness</h3>
+                    <p>Sweet, smooth, and perfectly tropical for a summer bash.</p>
+                </div>
+                <div class="card" style="background: rgba(255,255,255,0.05);">
+                    <img src="https://images.unsplash.com/photo-1548696874-9d4f0490795c?w=600" class="card-img" alt="Grape">
+                    <div class="card-icon" style="background: #9933ff; border: none;">🍇</div>
+                    <h3>Wild Grape</h3>
+                    <p>A deep, rich purple splash with a playful sour kick.</p>
+                </div>
+                <div class="card" style="background: rgba(255,255,255,0.05);">
+                    <img src="https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=600" class="card-img" alt="Watermelon">
+                    <div class="card-icon" style="background: #ff00ff; border: none;">🍉</div>
+                    <h3>Watermelon Wave</h3>
+                    <p>Crisp, cool watermelon that tastes like a summer breeze.</p>
+                </div>
+            </div>
+            <div class="text-center" style="margin-top: 40px;">
+                <a href="flavors.html" class="btn btn-primary">View Full Menu</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Party Packages -->
+    <section class="section container">
+        <h2>Party Packages</h2>
+        <div class="grid grid-3 center-last-tablet">
+            <div class="card fade-in">
+                <h3>Small Splash</h3>
+                <div style="font-size: 32px; color: var(--secondary); margin-bottom: 20px;">Up to 50 Guests</div>
+                <ul style="margin-bottom: 30px;">
+                    <li>2 Hours of Service</li>
+                    <li>2 Flavors Included</li>
+                    <li>Unlimited Regular Cups</li>
+                </ul>
+                <a href="contact.html?package=small" class="btn btn-secondary">Get Quote</a>
+            </div>
+            <div class="card fade-in delay-1" style="border: 3px solid var(--primary); transform: scale(1.05);">
+                <div style="background: var(--primary); color: #1a1a1a; padding: 5px 15px; border-radius: 20px; font-weight: bold; margin-bottom: 10px;">MOST POPULAR</div>
+                <h3>Medium Bash</h3>
+                <div style="font-size: 32px; color: var(--secondary); margin-bottom: 20px;">51-100 Guests</div>
+                <ul style="margin-bottom: 30px;">
+                    <li>3 Hours of Service</li>
+                    <li>4 Flavors Included</li>
+                    <li>Cups & Specialty Straws</li>
+                </ul>
+                <a href="contact.html?package=medium" class="btn btn-primary">Get Quote</a>
+            </div>
+            <div class="card fade-in delay-2">
+                <h3>Mega Party</h3>
+                <div style="font-size: 32px; color: var(--secondary); margin-bottom: 20px;">100+ Guests</div>
+                <ul style="margin-bottom: 30px;">
+                    <li>4+ Hours of Service</li>
+                    <li>All Flavors Available</li>
+                    <li>Custom Branded Cups</li>
+                </ul>
+                <a href="contact.html?package=mega" class="btn btn-secondary">Get Quote</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Happy Customers -->
+    <section class="section" style="background: var(--bg-light);">
+        <div class="container">
+            <h2>Testimonials</h2>
+            <div class="grid grid-3">
+                <div class="card">
+                    <p>"The truck was the highlight of our company picnic! Everyone loved the 'Electric Strawberry' flavor."</p>
+                    <div style="font-weight: bold; color: var(--secondary);">- Sarah Jenkins</div>
+                </div>
+                <div class="card">
+                    <p>"Super easy to book and the team was so energetic. Best birthday party decision ever!"</p>
+                    <div style="font-weight: bold; color: var(--secondary);">- Mike Roberts</div>
+                </div>
+                <div class="card">
+                    <p>"Refreshing, fun, and the truck looks AMAZING in photos. Highly recommend for any outdoor event!"</p>
+                    <div style="font-weight: bold; color: var(--secondary);">- Amanda Lee</div>
+                </div>
+                <div class="card">
+                    <p>"The kids were so excited when the truck pulled up. The colors are just so vibrant!"</p>
+                    <div style="font-weight: bold; color: var(--secondary);">- David Wilson</div>
+                </div>
+                <div class="card">
+                    <p>"Professional service and the best slushies in the city. Truly a premium experience."</p>
+                    <div style="font-weight: bold; color: var(--secondary);">- Emily Chen</div>
+                </div>
+                <div class="card">
+                    <p>"Our wedding guests loved the custom flavors. It was such a unique touch to our big day!"</p>
+                    <div style="font-weight: bold; color: var(--secondary);">- James & Sofia</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <a href="index.html" class="logo" style="color: white; margin-bottom: 20px;">
+                    <svg width="30" height="30" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" style="vertical-align: middle; margin-right: 10px;">
+                        <path d="M30 35 L70 35 L62 90 L38 90 Z" fill="var(--primary)" />
+                        <path d="M30 35 Q50 15 70 35" fill="white" opacity="0.5" />
+                    </svg>
+                    Slushy <span>Splash</span>
+                </a>
+                <p>Making parties cooler since 2024. Your premier mobile slushy destination for any event.</p>
+                <div class="social-links">
+                    <a href="#">FB</a>
+                    <a href="#">IG</a>
+                    <a href="#">TK</a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul class="footer-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="flavors.html">Flavors</a></li>
+                    <li><a href="packages.html">Packages</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Popular Flavors</h4>
+                <ul class="footer-links">
+                    <li>Electric Strawberry</li>
+                    <li>Zesty Lemon-Lime</li>
+                    <li>Blue Raspberry</li>
+                    <li>Tropical Mango</li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact Us</h4>
+                <p>📞 (555) SLUSHY-1</p>
+                <p>📧 hello@slushysplash.com</p>
+                <p>📍 Serving Miami & Broward</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Slushy Splash. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <div id="backToTop" class="back-to-top" aria-label="Back to top">↑</div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
