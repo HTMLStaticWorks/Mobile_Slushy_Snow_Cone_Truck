@@ -6,7 +6,7 @@
     <title>Slushy Splash - Login</title>
     <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-</head>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">`n</head>
 <body class="auth-page">
 
     <!-- Theme & RTL Toggles for Auth Page -->
@@ -16,8 +16,8 @@
     </div>
 
     <div class="card auth-card">
-        <a href="index.html" class="logo text-center" style="display: block; margin-bottom: 30px;">
-            <svg width="60" height="60" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" style="display: block; margin: 0 auto 15px;">
+        <a href="index.html" class="logo auth-card-logo">
+            <svg width="60" height="60" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M30 35 L70 35 L62 90 L38 90 Z" fill="var(--primary)" />
                 <path d="M30 35 Q50 15 70 35" fill="var(--secondary)" opacity="0.8" />
                 <path d="M48 35 L52 10" stroke="#333" stroke-width="4" stroke-linecap="round" />
@@ -36,8 +36,11 @@
                 <label>Password</label>
                 <input type="password" placeholder="Your password" class="form-input" required>
             </div>
-            <div style="text-align: right; margin-bottom: 20px;">
-                <a href="#" style="font-size: 14px; text-decoration: underline;">Forgot Password?</a>
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+                <label style="font-size: 14px; display: flex; align-items: center; gap: 8px; cursor: pointer; color: var(--text-dark);">
+                    <input type="checkbox" style="width: 18px; height: 18px; accent-color: var(--primary); cursor: pointer;"> Remember Me
+                </label>
+                <a href="#" style="font-size: 14px; text-decoration: underline; color: var(--secondary); font-weight: 500;">Forgot Password?</a>
             </div>
             <button type="submit" class="btn btn-primary btn-auth">Login</button>
         </form>
